@@ -42,4 +42,9 @@ This workshop was designed using [Local WP](https://localwp.com/) and [VS Code](
 Navigate to **Appearance → Themes → Add New → Upload Theme**, and upload the zip. 
 10. Active the new WP University theme.
 
+### 3. Set the Homepage and Posts Page
+1. Create two new pages, “Home” and “University News.” 
+2. Navigate to **Settings → General → Reading** and set Home as the homepage and University News as the posts page.
+
+---
 #### [Next →](/steps/step-2/readme.md)

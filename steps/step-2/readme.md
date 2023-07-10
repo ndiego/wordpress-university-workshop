@@ -1,7 +1,5 @@
 # Step 2: Exploring the Site Editor
 
-Explore the Site Editor and configure the theme's fonts, colors, and layout.
-
 ## Steps
 
 ### 1. Configure fonts
@@ -20,11 +18,11 @@ Explore the Site Editor and configure the theme's fonts, colors, and layout.
 1. In the Styles sidebar, choose Colors.
 2. Click on the Palette and then select Show Details from the︙icon.
 3. Select each color and update to the following:
-    - Base: ![#FFFFFF](https://via.placeholder.com/15/FFFFFF/000000?text=+) `#FFFFFF`
-    - Contrast: ![#1E1E1E](https://via.placeholder.com/15/1E1E1E/000000?text=+) `#1E1E1E`
-    - Primary: ![#3858E9](https://via.placeholder.com/15/3858E9/000000?text=+) `#3858E9`
-    - Secondary: ![#7B90FF](https://via.placeholder.com/15/7B90FF/000000?text=+) `#7B90FF`
-    - Tertiary: ![#ECEFFD](https://via.placeholder.com/15/ECEFFD/000000?text=+) `#7B90FF`
+    - Base: `#FFFFFF`
+    - Contrast: `#1E1E1E`
+    - Primary: `#3858E9`
+    - Secondary: `#7B90FF`
+    - Tertiary: `#7B90FF`
 4. Go back to the main Colors panel.
 5. Change the Link default color to Primary.
 6. Change the Button text to Base and the background color to Primary.
@@ -42,4 +40,5 @@ Explore the Site Editor and configure the theme's fonts, colors, and layout.
 ## Resources
 - [The Style Book: a one-stop shop for styling block themes](https://developer.wordpress.org/news/2023/06/the-style-book-a-one-stop-shop-for-styling-block-themes/)
 
+---
 #### [← Previous](/steps/step-1/readme.md) ... [Next →](/steps/step-3/readme.md)
