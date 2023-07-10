@@ -41,3 +41,5 @@ This workshop was designed using [Local WP](https://localwp.com/) and [VS Code](
 9. Click “Generate”. This will download a zip file of the theme.
 Navigate to **Appearance → Themes → Add New → Upload Theme**, and upload the zip. 
 10. Active the new WP University theme.
+
+#### [Next →](/steps/step-2/readme.md)

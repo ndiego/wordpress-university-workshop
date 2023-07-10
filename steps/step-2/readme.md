@@ -33,3 +33,5 @@ Explore the Site Editor and configure the theme's fonts, colors, and layout.
 
 ## Resources
 - [The Style Book: a one-stop shop for styling block themes](https://developer.wordpress.org/news/2023/06/the-style-book-a-one-stop-shop-for-styling-block-themes/)
+
+#### [← Previous](/steps/step-1/readme.md) | [Next →](/steps/step-3/readme.md)
