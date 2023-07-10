@@ -29,9 +29,17 @@ Explore the Site Editor and configure the theme's fonts, colors, and layout.
 5. Change the Link default color to Primary.
 6. Change the Button text to Base and the background color to Primary.
 
+### 3. Configure default layout
+1. In the Styles sidebar, choose Layout.
+2. Change the content size to `800px` and the wide size to `1400px`.
+3. Remove top and bottom padding.
+
+### 4. Save changes to the theme
+1. Click on the wrench icon in the top right, this will open the Create Block Theme panel.
+2. Click “Save Changes” to apply all modifications to the theme itself.
 
 
 ## Resources
 - [The Style Book: a one-stop shop for styling block themes](https://developer.wordpress.org/news/2023/06/the-style-book-a-one-stop-shop-for-styling-block-themes/)
 
-#### [← Previous](/steps/step-1/readme.md) | [Next →](/steps/step-3/readme.md)
+#### [← Previous](/steps/step-1/readme.md) ... [Next →](/steps/step-3/readme.md)
