@@ -47,13 +47,7 @@
 ```php
 <?php echo esc_url( get_template_directory_uri() ). '/assets/images/lecture-hall-1.jpg';?>
 ```
-
-6. Save the file and go back to the Libary section of the Site Editor. Under the `Featured` folder, you should see the new pattern.
-
-<details>
-    <summary>Complete Pattern Code</summary>
-
-Note you will need to update the image paths to correspond with your local development environment. For theme patterns that utilize images, a common approach is to include the images with the theme in an assets folder.
+8. Remove the `mediaLink` attribute. The final code will look like this:
 
 ```php
 <?php
@@ -64,7 +58,7 @@ Note you will need to update the image paths to correspond with your local devel
  * Keywords: Feature card, call to action
  */
 ?>
-<!-- wp:media-text {"align":"wide","mediaId":41,"mediaLink":"http://wordpress-university.local/wordpress-university-pushes-boundaries-with-groundbreaking-research-on-ai-in-wordpress/lecture-hall-1/","mediaType":"image","verticalAlignment":"center","imageFill":true,"style":{"spacing":{"margin":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"}}},"className":"is-style-text-overlay"} -->
+<!-- wp:media-text {"align":"wide","mediaId":41,"mediaType":"image","verticalAlignment":"center","imageFill":true,"style":{"spacing":{"margin":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"}}},"className":"is-style-text-overlay"} -->
 <div class="wp-block-media-text alignwide is-stacked-on-mobile is-vertically-aligned-center is-image-fill is-style-text-overlay" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:var(--wp--preset--spacing--50)"><figure class="wp-block-media-text__media" style="background-image:url(<?php echo esc_url( get_template_directory_uri() ). '/assets/images/lecture-hall-1.jpg';?>);background-position:50% 50%">
 <img src="<?php echo esc_url( get_template_directory_uri() ). '/assets/images/lecture-hall-1.jpg';?>" alt="" class="wp-image-41 size-full"/></figure><div class="wp-block-media-text__content"><!-- wp:heading {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"fontSize":"x-large"} -->
 <h2 class="wp-block-heading has-x-large-font-size" style="margin-top:0;margin-bottom:0">Web Development Certificate Program</h2>
@@ -85,7 +79,8 @@ Note you will need to update the image paths to correspond with your local devel
 <!-- /wp:buttons --></div></div>
 <!-- /wp:media-text -->
 ```
-</details>
+
+6. Save the file and go back to the Libary section of the Site Editor. Under the `Featured` folder, you should see the new pattern.
 
 ## Resources
 - [Patterns (Block Editor Handbook)](https://developer.wordpress.org/block-editor/reference-guides/block-api/block-patterns/)
