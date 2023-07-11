@@ -7,6 +7,23 @@
 
 <img src="screenshots/query-loop-composition.jpg" width="360pc">
 
+```css
+/* Modify Query block styles to stretch content and fill container. */
+.wp-block-query.is-style-stretch-content,
+.wp-block-query.is-style-stretch-content .wp-block-post-template,
+.wp-block-query.is-style-stretch-content .wp-block-post-template > li,
+.wp-block-query.is-style-stretch-content .wp-block-post-template > li > *[class*='wp-block'] {
+    height: 100%;
+}
+```
+
+```css
+/* Modify Cover bock styles to stretch full width. */
+.wp-block-cover.has-custom-content-position[class*='-center'] .wp-block-cover__inner-container {
+    width: 100%;
+}
+```
+
 ## Resources
 - 
 
