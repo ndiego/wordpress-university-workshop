@@ -111,6 +111,7 @@ wp.domReady( function () {
 } );
 ```
 ## Resources
+- [What Are Block Variations and How to Use Them](https://wpengine.com/builders/what-are-block-variations/)
 - [Block Styles (Block Editor Handbook)](https://developer.wordpress.org/block-editor/reference-guides/block-api/block-styles/)
 - [Creating custom block styles in WordPress themes](https://developer.wordpress.org/news/2023/02/creating-custom-block-styles-in-wordpress-themes/)
 
