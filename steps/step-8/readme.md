@@ -115,7 +115,7 @@
 3. **Note, this will create a few errors.**
 
 ### 11. Fix minor Create Block Theme bugs
-1. In the theme files, investigate the `/templates`, `pattern`, and `/parts` folders to confirm that the modifications have been applied.
+1. In the theme files, investigate the `/templates`, `/pattern`, and `/parts` folders to confirm that the modifications have been applied.
 2. Notice that some templates are referencing a pattern, while others have the complete block markup.
 3. In all patterns that include a template part, add the attribute `"theme":"wpuniversity"` to the `<!-- wp:template-part { ... } -->` markup. Here is an example for the Header template part:
 ```html
