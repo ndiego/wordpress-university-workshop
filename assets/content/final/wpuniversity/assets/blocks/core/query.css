@@ -1,0 +1,7 @@
+/* Modify Query block styles to stretch content and fill container. */
+.wp-block-query.is-style-stretch-content,
+.wp-block-query.is-style-stretch-content .wp-block-post-template,
+.wp-block-query.is-style-stretch-content .wp-block-post-template > li,
+.wp-block-query.is-style-stretch-content .wp-block-post-template > li > *[class*='wp-block'] {
+    height: 100%;
+}
