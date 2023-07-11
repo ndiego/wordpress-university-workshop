@@ -7,6 +7,7 @@
 ![img](/steps/step-4/screenshots/site-header.jpg)
 
 1. Design the site header using the following composition (not a complete list):
+	- Use the [WordPress University - Logo.png](/assets/logos/WordPress%20University%20-%20Logo.png) file for the Site Logo 
 	- Site Logo image width is `32px`
 	- Site Title has a `Large` font size
 	- Outer Row block has `wide` width
