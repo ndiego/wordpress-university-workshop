@@ -7,7 +7,7 @@
 1. Access the Site Editor by navigating to **Appearance → Editor**.
 2. Click on "Library" and then select "Headers" if not already selected. 
 3. Select and edit the Header by click on the pencil icon or the canvas.
-4. In a new tab, navigate to the "Design" page, which was created earlier.
+4. In a new tab, navigate to the "Block Designs" page, which was created earlier.
 5. Copy the header design and paste it into the Header template part, replacing all existing content.
 6. Save the Header and confirm that the website's header has now been updated on the front end.
 7. Repeat the same process for the Footer.
@@ -19,7 +19,7 @@
 2. Click on the ＋ icon to add a new template and select 'Front Page".
 3. In the pattern modal that pops up, choose "Skip".
 4. Add the Header and Footer template parts to the template.
-5. In a new tab, navigate to the "Design" page, which was created earlier.
+5. In a new tab, navigate to the "Block Designs" page, which was created earlier.
 6. Copy and paste the site banner and University News designs into the Front Page template.
 7. Copy and paste the text overlay card. Do this twice.
 8. The final layout should be:
