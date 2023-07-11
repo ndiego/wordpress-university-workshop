@@ -25,7 +25,7 @@ add_action( 'enqueue_block_editor_assets', 'wpu_enqueue_client_side_filters' );
 ```
 
 ### 2. Modify default block controls
-1. Navigate to the Editor of any post of page. Add a Paragraph and a Heading block. Notice that the default typography controls are different.
+1. Navigate to the Editor of any post or page. Add a Paragraph and a Heading block. Notice that the default typography controls are different.
 2. In the `/client-side-filters.js`, use the `blocks.registerBlockType` filter to standardize the default typography controls for all blocks that support typography. Use the following code:
 ```js
 /**
@@ -63,7 +63,7 @@ addFilter(
 );
 ```
 ### 3. Restrict border controls for specific users
-1. In the `/client-side-filters.js`, use the `blockEditor.useSetting.before` filter to to disable border control for non-Administrators on posts. Use the following code:
+1. In the `/client-side-filters.js`, use the `blockEditor.useSetting.before` filter to disable border control for non-Administrators on posts. Use the following code:
 ```js
 /**
  * If the user doesn't have permission to update settings (Editors,
@@ -130,7 +130,7 @@ addFilter(
 ### 3. Restrict block settings based on context
 1. Edit the Page Elements page.
 2. Click on the Button that is located in the Cover block and confirm that all colors are available for both text and background.  
-3. In the `/client-side-filters.js`, use the `blockEditor.useSetting.before` filter to to disable all custom colors/gradients and restrict the color palette to `base`, `contrast`, and `primary`, whenever a Button block is placed inside of a Cover block. Use the following code:
+3. In the `/client-side-filters.js`, use the `blockEditor.useSetting.before` filter to disable all custom colors/gradients and restrict the color palette to `base`, `contrast`, and `primary`, whenever a Button block is placed inside of a Cover block. Use the following code:
 ```js
 /**
  * If a 'core/button' block is within a 'core/cover' block, update the

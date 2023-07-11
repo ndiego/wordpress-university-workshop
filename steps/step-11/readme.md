@@ -9,7 +9,7 @@
 3. Select "Lock", choose "Lock all", and click "Apply".
 4. Notice that the block can no longer be moved or removed.
 5. Apply the same settings to all other blocks inside of the Media & Text block.
-6. Open the Code Editor and see that the attribues `{"lock":{"move":true,"remove":true}}` have been applied to each block.
+6. Open the Code Editor and see that the attributes `{"lock":{"move":true,"remove":true}}` have been applied to each block.
 7. Don't save the pattern. Refresh the page to clear the changes.
 
 ### 2. Block template locking
@@ -58,7 +58,7 @@ function wpu_restrict_locking_ui( $settings, $context ) {
 }
 add_filter( 'block_editor_settings_all', 'wpu_restrict_locking_ui', 10, 2 );
 ```
-4. Switch to the Editor user and confirm that the locking UI is not available and neither is the Code Editor.
+4. Switch to the Editor user and confirm that the locking UI and the Code Editor are not available.
 
 ## Resources
 - [Unlock the Power of the Block Locking API](https://wpengine.com/builders/block-locking-api/#restrict-locking-unlocking)

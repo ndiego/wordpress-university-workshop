@@ -7,7 +7,7 @@
 1. Create a design in the Post Editor composed of any number of blocks.
 2. Wrap the blocks in a container block (Group, Columns, etc.). This is not required, but it makes it easier to manage the pattern.
 3. On the container block, select the ︙ icon in the toolbar and select "Create Pattern".
-4. Give the pattern a name, but **do not** toggle "Keep all pattern instances in sync", we will do that next.
+4. Give the pattern a name, but **do not** toggle "Keep all pattern instances in sync". We will do that next.
 5. Click "Save".
 6. View the newly saved pattern in the Inserter under the Patterns tab.
 7. Insert the pattern into the Post Editor.
@@ -21,9 +21,9 @@
 1. Create another block design (or the same one as before) in the Post Editor.
 2. Wrap the blocks in a container block.
 3. On the container block, select the ︙ icon in the toolbar and select "Create Pattern".
-4. Give the pattern a name, and **toggle** "Keep all pattern instances in sync."
+4. Give the pattern a name and **toggle** "Keep all pattern instances in sync."
 5. Click "Save".
-6. View the newly saved pattern in the Inserter under the "Synced Pattern" tab. This is denoted by the two diamond icon.
+6. View the newly saved pattern in the Inserter under the "Synced Pattern" tab. This is denoted by the two-diamond icon.
 7. Insert the pattern into the Post Editor. Do this twice.
 8. Edit one of the patterns and notice how all other instances of the synced pattern are also updated.
 
@@ -43,7 +43,7 @@
 ```
 3. Locate to the corresponding saved un-synced pattern (created in Step 1) in the Site Editor by navigating to **Appearance → Editor → Library → Custom patterns**. 
 4. Edit the pattern and access the Code Editor. 
-5. Copy all of the block markup and add it to the `text-overlay-card.php` file in the theme.
+5. Copy the block markup and add it to the `text-overlay-card.php` file in the theme.
 5. In the theme's `assets` folder, create a new folder called `images`.
 6. Place the [lecture-hall-1.jpg](/assets/photos/lecture-hall-1.jpg) file in this folder. 
 7. In the `text-overlay-card.php` file, replace the media URLs with:

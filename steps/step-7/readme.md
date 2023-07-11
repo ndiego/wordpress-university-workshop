@@ -26,7 +26,7 @@ add_action( 'enqueue_block_editor_assets', 'wpu_enqueue_block_variations' );
 
 ### 2. Register a "Post Search" variation for Search blocks
 
-1. In the `block-variations.js` file, add the following to register a variations of the Search block that will only return posts. All other post types will be excluded from the results.
+1. In the `block-variations.js` file, add the following to register a variation of the Search block that will only return posts. All other post types will be excluded from the results.
 ```js
 /**
  * Register the "Post Search" block variation for Search blocks.
@@ -43,17 +43,17 @@ wp.domReady( function () {
     } );
 } );
 ```
-2. In the Editor click on the Inserter to add a new block. 
-3. Search for "search" and you should see the new variation. Insert it into the page. 
-4. Save the page and view on the front end. 
-5. Preform a search and see that the URL is querying the `post` post type.
+2. In the Editor, click the Inserter to add a new block. 
+3. Search for "search" and see the new variation. Insert it into the page. 
+4. Save the page and view it on the front end. 
+5. Perform a search and see that the URL is querying the `post` post type.
 ```
 .../?s=wordpress&post_type=post
 ```
 
 ### 3. Unregister the "YouTube" Embed block variation
 
-1. In the `block-variations.js` file, add the following to unregister a the "YouTube" variation of the Embed block.
+1. In the `block-variations.js` file, add the following to unregister the "YouTube" variation of the Embed block.
 ```js
 /**
  * Unregister the "YouTube" block variation for Embed blocks.
@@ -62,8 +62,9 @@ wp.domReady( function () {
     wp.blocks.unregisterBlockVariation( 'core/embed', 'youtube' );
 } );
 ```
-2. In the Editor click on the Inserter to add a new block. 
-3. Search for "YouTube" and it will not be available.
+2. In the Editor, click the Inserter to add a new block. 
+3. Search for "YouTube," which will not be available.
+
 ## Resources
 - [Block Variations (Block Editor Handbook)](https://developer.wordpress.org/block-editor/reference-guides/block-api/block-variations/)
 - [Exploring the Power of Block Variations](https://wordpress.tv/2022/08/26/nick-diego-exploring-the-power-of-block-variations/)

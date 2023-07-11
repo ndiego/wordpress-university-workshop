@@ -23,7 +23,7 @@ a:hover {
 ```
 5. Confirm that the link underline thickness is now thinner in the Editor and on the front end.
 6. Navigate to **Appearance → Editor → Styles** and click the pencil icon or the canvas to edit Global Styles.
-7. In the Styles panel click on "Additional CSS" and confirm the custom CSS added in `theme.json` is present.
+7. In the Styles panel, click "Additional CSS" and confirm the custom CSS added in `theme.json` is present.
 
 ### 2. Per-block stylesheets
 
@@ -33,7 +33,7 @@ a:hover {
     - `columns.css`
     - `cover.css`
     - `media-text.css`
-3. Copy the block-specific custom CSS that is currently in `style.css` (added in prior steps) to the corresponding stylesheets.
+3. Copy the block-specific custom CSS currently in `style.css` (added in prior steps) to the corresponding stylesheets.
 4. In the `functions.php` file, register the individual block stylesheets using the [`wp_enqueue_block_style()`](https://developer.wordpress.org/reference/functions/wp_enqueue_block_style/) function using the following code:
 ```php
 /**

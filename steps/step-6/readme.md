@@ -6,10 +6,10 @@
 
 1. In the "Block Designs" page, create earlier, add a Media & Text block.
 2. Set the image on the left (this should be the default).
-3. In the content area add (stock text below):
+3. In the content area, add (stock text below):
     - Heading block
     - 2 Paragraph blocks
-    - Buttons block with 1 button that reads "Apply now" linked to the `/apply` page.
+    - Buttons block with one button that reads "Apply now" linked to the `/apply` page.
 4. Save the page.
 5. In the theme's `style.css` file, add the following custom CSS:
 ```css

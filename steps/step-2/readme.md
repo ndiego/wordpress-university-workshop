@@ -33,7 +33,7 @@
 3. Remove top and bottom padding.
 
 ### 4. Save changes to the theme
-1. Click on the wrench icon in the top right, this will open the Create Block Theme panel.
+1. Click on the wrench icon in the top right. This will open the Create Block Theme panel.
 2. Click “Save Changes” to apply all modifications to the theme itself.
 
 

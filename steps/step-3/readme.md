@@ -7,7 +7,7 @@
 4. Remove the `text` color styles from the link element in the Post Content block.
 
 ## 2. Styles and Settings
-1. Style Site Title block in Site Editor. Save changes to theme and see them show up in theme.json.
+1. Style Site Title block in Site Editor. Save changes to the theme and see them show up in theme.json.
     - Font Family to EB Garmond
     - Size to Medium
 2. Replace the `"fluid": false` specification on the `x-large` font size with:
@@ -52,7 +52,7 @@
 	}
 },
 ```
-8. Update button element border `radius` setting to use the new custom small variable `--wp--custom--border-radius--small`. 
+8. Update the button element border `radius` setting to use the new custom small variable `--wp--custom--border-radius--small`. 
 9. Add custom button element styles to the Search block.
 ```json
 "core/search": {

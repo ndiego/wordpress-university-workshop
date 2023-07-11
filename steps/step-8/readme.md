@@ -5,18 +5,18 @@
 ### 1. Configure the Header and Footer template parts
 
 1. Access the Site Editor by navigating to **Appearance → Editor**.
-2. Click on "Library" and then select "Headers" if not already selected. 
-3. Select and edit the Header by click on the pencil icon or the canvas.
+2. Click "Library" and then select "Headers" if not already selected. 
+3. Select and edit the Header by clicking on the pencil icon or the canvas.
 4. In a new tab, navigate to the "Block Designs" page, which was created earlier.
 5. Copy the header design and paste it into the Header template part, replacing all existing content.
-6. Save the Header and confirm that the website's header has now been updated on the front end.
+6. Save the Header and confirm that the website's header has been updated on the front end.
 7. Repeat the same process for the Footer.
 
 ### 2. Configure the Front Page template
 <img src="screenshots/front-page.jpg">
 
 1. In the Site Editor, navigate to "Templates".
-2. Click on the ＋ icon to add a new template and select 'Front Page".
+2. Click the ＋ icon to add a new template and select 'Front Page".
 3. In the pattern modal that pops up, choose "Skip".
 4. Add the Header and Footer template parts to the template.
 5. In a new tab, navigate to the "Block Designs" page, which was created earlier.
@@ -25,8 +25,8 @@
 8. The final layout should be:
     - Header
     - Site banner
-    - Text overlay card (image on left)
-    - Text overlay card (image on right)
+    - Text overlay card (image on the left)
+    - Text overlay card (image on the right)
     - University News
     - Footer
 9. Save the template.
@@ -34,7 +34,7 @@
 ### 3. Make the Header template part "sticky"
 
 1. In the Front Page template, wrap the Header template part in a Group block.
-2. In the block settings sidebar, in the Position panel, select "Sticky". The site header will now stick to the top of the page on scroll.
+2. In the block settings sidebar, select "Sticky" in the Position panel. The site header will now stick to the top of the page on scroll.
 3. Set the Header template part to full width.
 4. Repeat the same process for all templates on the site.
 5. Save the template.
@@ -58,8 +58,8 @@
 1. Navigate to the Index template in the Site Editor.
 2. Remove all content between the sticky header and the Footer template part.
 3. In a new tab, navigate to the "Headers" page, which was created for you.
-5. Copy the "Page Header" design and paste it below the sticky header. 
-5. Remove the Site Title block. There will be not title in this template.
+4. Copy the "Page Header" design and paste it below the sticky header. 
+5. Remove the Site Title block. There will be no title in this template.
 6. In a new tab, navigate to the "Query Loops" page, which was created for you.
 7. Copy the "Default Query" design and paste it below the page header.
 8. Save the template.
@@ -95,7 +95,7 @@
 4. Copy the "Page Header" design and paste it below the sticky header. 
 5. In the block toolbar of the Cover block, click "Replace" and then choose "Use featured image".
 6. Below the page header, add a Group block with "Inner blocks use content width" disabled.
-7. Inside of the Group, add the Post Content block and make sure "Inner blocks use content width" enabled.
+7. Inside of the Group, add the Post Content block and make sure "Inner blocks use content width" is enabled.
 8. Save the template.
 
 ### 9. Configure the Single template
@@ -110,9 +110,9 @@
 8. Save the template.
 
 ### 10. Save changes to the theme
-1. In the canvas of the Site Editor. click on the wrench icon in the top right, this will open the Create Block Theme panel.
+1. In the canvas of the Site Editor, click on the wrench icon in the top right. This will open the Create Block Theme panel.
 2. Click “Save Changes” to apply all modifications to the theme itself.
-3. **Note, this will create a few errors.**
+3. **Note this will create a few errors.**
 
 ### 11. Fix minor Create Block Theme bugs
 1. In the theme files, investigate the `/templates`, `/pattern`, and `/parts` folders to confirm that the modifications have been applied.
@@ -121,7 +121,7 @@
 ```html
 <!-- wp:template-part {"slug":"header","tagName":"header","theme":"wpuniversity"} /-->
 ```
-4. There is a minor bug in the way the Create Block Theme plugin manages Media & Text blocks. In the `front-page.html` pattern, replace line 33 with:
+4. There is a minor bug in how the Create Block Theme plugin manages Media & Text blocks. In the `front-page.html` pattern, replace line 33 with:
 ```html
 <div class="wp-block-media-text alignwide is-stacked-on-mobile is-vertically-aligned-center is-image-fill is-style-text-overlay" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:var(--wp--preset--spacing--50)"><figure class="wp-block-media-text__media" style="background-image:url(<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/lecture-hall-1024x768.jpg);background-position:50% 50%"><img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/lecture-hall-1024x768.jpg" alt="" class="wp-image-41 size-full"/></figure><div class="wp-block-media-text__content"><!-- wp:heading {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"fontSize":"x-large"} -->
 ```
