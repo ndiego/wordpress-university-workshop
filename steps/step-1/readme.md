@@ -47,4 +47,4 @@ Navigate to **Appearance → Themes → Add New → Upload Theme**, and upload t
 2. Navigate to **Settings → General → Reading** and set Home as the homepage and University News as the posts page.
 
 ---
-#### [Next →](/steps/step-2/readme.md)
+[Next →](/steps/step-2/readme.md)

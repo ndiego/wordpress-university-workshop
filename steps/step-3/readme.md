@@ -84,8 +84,9 @@
 - [Intrinsic design, theming, and rethinking how to design with WordPress](https://developer.wordpress.org/news/2023/02/intrinsic-design-theming-and-rethinking-how-to-design-with-wordpress/)
 - [Fluid Type Scale Calculator](https://www.fluid-type-scale.com/)
 - [Everything you need to know about spacing in block themes](https://developer.wordpress.org/news/2023/03/everything-you-need-to-know-about-spacing-in-block-themes/)
+- [Builder Basics: Demystifying theme.json and Global Styles](https://wordpress.tv/2022/12/09/builder-basics-demystifying-theme-json-and-global-styles/)
 
 ---
-#### [← Previous](/steps/step-2/readme.md) ... [Next →](/steps/step-4/readme.md)
+[← Previous](/steps/step-2/readme.md) &nbsp;&nbsp;|&nbsp;&nbsp; [Next →](/steps/step-4/readme.md)
 
 
