@@ -110,10 +110,24 @@
 8. Save the template.
 
 ### 10. Save changes to the theme
-1. In the canvaas of the Site Editor. click on the wrench icon in the top right, this will open the Create Block Theme panel.
+1. In the canvas of the Site Editor. click on the wrench icon in the top right, this will open the Create Block Theme panel.
 2. Click “Save Changes” to apply all modifications to the theme itself.
-3. This will create a few errors.
-3. In the theme files, investigate the `/templates` and `/parts` folders to confirm that the modifications have been applied.
+3. **Note, this will create a few errors.**
+4. In the theme files, investigate the `/templates`, `pattern`, and `/parts` folders to confirm that the modifications have been applied.
+5. Notice that some templates are referencing a pattern, while others have the complete block markup.
+6. In all patterns that include a template part, add the attribute `"theme":"wpuniversity"` to the `<!-- wp:template-part { ... } -->` markup. Here is an example for the Header template part:
+```html
+<!-- wp:template-part {"slug":"header","tagName":"header","theme":"wpuniversity"} /-->
+```
+7. There is a minor bug in the way the Create Block Theme plugin manages Media & Text blocks. In the `front-page.html` pattern, replace line 33 with:
+```html
+<div class="wp-block-media-text alignwide is-stacked-on-mobile is-vertically-aligned-center is-image-fill is-style-text-overlay" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:var(--wp--preset--spacing--50)"><figure class="wp-block-media-text__media" style="background-image:url(<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/lecture-hall-1024x768.jpg);background-position:50% 50%"><img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/lecture-hall-1024x768.jpg" alt="" class="wp-image-41 size-full"/></figure><div class="wp-block-media-text__content"><!-- wp:heading {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"fontSize":"x-large"} -->
+```
+8. In the `front-page.html` pattern, replace line 61 with:
+```html
+<!-- /wp:buttons --></div><figure class="wp-block-media-text__media" style="background-image:url(<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/campus-1-1024x768.jpg);background-position:50% 50%"><img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/campus-1-1024x768.jpg" alt="" class="wp-image-224 size-full"/></figure></div>
+```
+9. Navigate back to the Site Editor. Confirm that each template is now appearing correctly.
 
 ---
 [← Previous](/steps/step-7/readme.md) &nbsp;&nbsp;|&nbsp;&nbsp; [Next →](/steps/step-9/readme.md)
