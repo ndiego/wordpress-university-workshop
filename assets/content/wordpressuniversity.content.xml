@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/6.2.2" created="2023-07-10 15:19" -->
+	<!-- generator="WordPress/6.2.2" created="2023-07-11 13:59" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>WordPress University</title>
 	<link>http://wordpress-university.local</link>
 	<description>Empowering Minds, Unleashing Digital Creativity</description>
-	<pubDate>Mon, 10 Jul 2023 15:19:36 +0000</pubDate>
+	<pubDate>Tue, 11 Jul 2023 13:59:35 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>http://wordpress-university.local</wp:base_site_url>
@@ -2220,8 +2220,8 @@
 <h2 class="wp-block-heading">Banner</h2>
 <!-- /wp:heading -->
 
-<!-- wp:cover {"url":"http://wordpress-university.local/wp-content/uploads/2023/07/campus-3.jpg","id":366,"dimRatio":10,"minHeight":100,"minHeightUnit":"vh","contentPosition":"center left","align":"full","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"top":"0","bottom":"0","left":"0","right":"0"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-cover alignfull has-custom-content-position is-position-center-left" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;min-height:100vh"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-10 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-366" alt="" src="http://wordpress-university.local/wp-content/uploads/2023/07/campus-3.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:group {"style":{"color":{"background":"#1e1e1eb3"},"spacing":{"padding":{"top":"clamp(1.8rem, 1.8rem + ((1vw - 0.48rem) * 2.885), 3rem)","bottom":"clamp(1.8rem, 1.8rem + ((1vw - 0.48rem) * 2.885), 3rem)","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"blockGap":"var:preset|spacing|40"},"border":{"left":{"color":"var:preset|color|quaternary","width":"4px"},"top":{},"right":{},"bottom":{}}},"textColor":"base","layout":{"type":"constrained"}} -->
+<!-- wp:cover {"url":"http://wordpress-university.local/wp-content/uploads/2023/07/campus-3.jpg","id":366,"dimRatio":10,"minHeight":100,"minHeightUnit":"vh","contentPosition":"center center","align":"full","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"top":"0","bottom":"0","left":"0","right":"0"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-cover alignfull" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;min-height:100vh"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-10 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-366" alt="" src="http://wordpress-university.local/wp-content/uploads/2023/07/campus-3.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:group {"style":{"color":{"background":"#1e1e1eb3"},"spacing":{"padding":{"top":"clamp(1.8rem, 1.8rem + ((1vw - 0.48rem) * 2.885), 3rem)","bottom":"clamp(1.8rem, 1.8rem + ((1vw - 0.48rem) * 2.885), 3rem)","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"blockGap":"var:preset|spacing|40"},"border":{"left":{"color":"var:preset|color|quaternary","width":"4px"},"top":{},"right":{},"bottom":{}}},"textColor":"base","layout":{"type":"constrained"}} -->
 <div class="wp-block-group has-base-color has-text-color has-background" style="border-left-color:var(--wp--preset--color--quaternary);border-left-width:4px;background-color:#1e1e1eb3;padding-top:clamp(1.8rem, 1.8rem + ((1vw - 0.48rem) * 2.885), 3rem);padding-right:var(--wp--preset--spacing--40);padding-bottom:clamp(1.8rem, 1.8rem + ((1vw - 0.48rem) * 2.885), 3rem);padding-left:var(--wp--preset--spacing--40)"><!-- wp:heading -->
 <h2 class="wp-block-heading">Empowering Minds.<br>Unleashing Digital Creativity.</h2>
 <!-- /wp:heading -->
@@ -2287,8 +2287,8 @@
 		<wp:post_id>354</wp:post_id>
 		<wp:post_date><![CDATA[2023-07-08 19:26:24]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2023-07-08 19:26:24]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2023-07-10 14:56:17]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2023-07-10 14:56:17]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2023-07-11 13:59:12]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2023-07-11 13:59:12]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[page-elements]]></wp:post_name>
