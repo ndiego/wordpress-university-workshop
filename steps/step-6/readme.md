@@ -40,7 +40,7 @@ Graduates of this program will be well-prepared for careers as professional web 
 
 </details>
 
-### 2. Add a block style for text overlay
+### 2. Add a "Text Overlay" block style for Media & Text blocks
 <img src="screenshots/text-overlay-card.jpg">
 
 1. In the theme's `style.css` file, add the following custom CSS:
