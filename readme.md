@@ -2,9 +2,7 @@
 
 <img src="assets/screenshots/wordpress-university-home.jpg">
 
-Welcome to the "WordPress University" workshop, where you will be guided through a 12-step process to create a website for the fictitious WordPress University. 
-
-This hands-on workshop offers a comprehensive overview of the fundamentals of building with blocks and block themes, providing valuable insights and practical experience in a straightforward and engaging website-building project.
+Welcome to the "WordPress University" workshop, where you will be guided through a 12-step process to create a website for the fictitious WordPress University. This hands-on workshop offers a comprehensive overview of the fundamentals of building with blocks and block themes, providing valuable insights and practical experience in a straightforward and engaging website-building project.
 
 ## Steps
 
