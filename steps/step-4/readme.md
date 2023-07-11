@@ -1,7 +1,7 @@
 # Step 4: Columns, Groups, Rows, and Stacks 
 
 ## 1. Setup
-1. Create a new page titled "Designs".
+1. Create a new page titled "Designs", or something similar.
 
 ## 2. Design the site header
 ![img](/steps/step-4/screenshots/site-header.jpg)

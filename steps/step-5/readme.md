@@ -5,7 +5,7 @@
 ### 1. 
 <img src="screenshots/query-loop.jpg">
 
-<img src="screenshots/query-loop-composition.jpg" width="360pc">
+<img src="screenshots/query-loop-composition.jpg" width="360px">
 
 ```css
 /* Modify Query block styles to stretch content and fill container. */

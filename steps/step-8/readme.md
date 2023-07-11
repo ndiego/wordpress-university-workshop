@@ -112,6 +112,7 @@
 ### 10. Save changes to the theme
 1. In the canvaas of the Site Editor. click on the wrench icon in the top right, this will open the Create Block Theme panel.
 2. Click “Save Changes” to apply all modifications to the theme itself.
+3. This will create a few errors.
 3. In the theme files, investigate the `/templates` and `/parts` folders to confirm that the modifications have been applied.
 
 ---
