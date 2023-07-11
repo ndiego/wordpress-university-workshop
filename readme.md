@@ -1,5 +1,10 @@
-# WordPress University: Workshop
+# Workshop: WordPress University
 
+<img src="assets/screenshots/wordpress-university-home.jpg">
+
+Welcome to the "WordPress University" workshop, where you will be guided through a 12-step process to create a website for the fictitious WordPress University. 
+
+This hands-on workshop offers a comprehensive overview of the fundamentals of building with blocks and block themes, providing valuable insights and practical experience in a straightforward and engaging website-building project.
 
 ## Steps
 
@@ -16,5 +21,7 @@
 - [Step 11: Block and template locking](/steps/step-11/readme.md)
 - [Step 12: Client-side filters](/steps/step-12/readme.md)
 
-Each step folder contains a `readme.md` file containing the instructions as well as a `theme` folder, which contains the complete theme at the end of each step.
+Each step folder contains a `readme.md` file that provides instructions. The folder also contains a `/theme` folder, which contains the complete theme at end of the step.
+
+> **Note** This workshop is designed to be instructor led. The instructions alone are not comprehensive. 
 
