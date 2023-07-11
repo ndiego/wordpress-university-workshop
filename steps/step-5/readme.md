@@ -3,6 +3,10 @@
 ## Steps
 
 ### 1. 
+<img src="screenshots/query-loop.jpg">
+
+<img src="screenshots/query-loop-composition.jpg" width="360pc">
+
 ## Resources
 - 
 
