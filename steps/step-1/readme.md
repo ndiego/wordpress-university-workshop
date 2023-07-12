@@ -13,14 +13,14 @@ This workshop was designed using [Local WP](https://localwp.com/) and [VS Code](
 
 #### Automated setup (Local WP)
 
-1. Create a new site in [Local WP](https://localwp.com/) by selecting the "Select an existing ZIP" option. The ZIP is available in the [/assets](/assets/content/wordpress-university.zip) folder.
+1. Create a new site in [Local WP](https://localwp.com/) by selecting the "Select an existing ZIP" option. The ZIP is available in the [/assets/starter-content](/assets/starter-content/wordpress-university.zip) folder.
 2. Access the new "WordPress University" site when the creation process is complete.
 
 #### Manual setup
 
 1. Create a new site in [Local WP](https://localwp.com/) or your preferred local development environment. If using Local WP, name it `wordpress-university`. This will save a few steps.
 2. Navigate to **Tools → Import** and click "Install Now" under the WordPress importer. Then click "Run Importer".
-3. Import the demo content available in the [/assets](/assets/content/wordpressuniversity.content.xml) folder. (The media will fail to import)
+3. Import the demo content available in the [/assets/starter-content](/assets/starter-content/wordpressuniversity.content.xml) folder. (The media will fail to import)
 4. Update the featured images for each post and page using the uploaded media. You will also need to update the images used in the content.
 5. Navigate to **Media → Add New** and upload all images in the [/assets/photos](./assets/photos/) folder and the two logos in the [/assets/logos](./assets/logos/) folder. (Don't upload the screenshot)
 6. Navigate to **Plugins → Add New**. Install and activate:
