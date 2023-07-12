@@ -15,6 +15,7 @@ This workshop was designed using [Local WP](https://localwp.com/) and [VS Code](
 
 1. Create a new site in [Local WP](https://localwp.com/) by selecting the "Select an existing ZIP" option. The ZIP is available in the [/assets/starter-content](/assets/starter-content/wordpress-university.zip) folder.
 2. Access the new "WordPress University" site when the creation process is complete.
+3. Log in using the user `admin` and the password `admin`.
 
 #### Manual setup
 
