@@ -1,0 +1,4 @@
+/* Modify Cover bock styles to stretch full width. */
+.wp-block-cover.has-custom-content-position[class*='-center'] .wp-block-cover__inner-container {
+    width: 100%;
+}

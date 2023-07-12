@@ -1,0 +1,6 @@
+/* Reverse column order on mobile in the Columns block. */
+@media (max-width: 781px) {
+    .wp-block-columns.is-style-mobile-reverse-order {
+        flex-direction: column-reverse;
+    }
+}

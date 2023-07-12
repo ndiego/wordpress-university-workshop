@@ -1,0 +1,73 @@
+/*
+Theme Name: WP University - Step 8
+Theme URI: 
+Author: 
+Author URI: 
+Description: Empowering Minds, Unleashing Digital Creativity
+Requires at least: 6.0
+Tested up to: 6.2.2
+Requires PHP: 5.7
+Version: 0.0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: wpuniversity
+Tags: blog, news, portfolio, one-column, wide-blocks, accessibility-ready, block-patterns, block-styles, custom-colors, custom-logo, custom-menu, editor-style, featured-images, full-site-editing, rtl-language-support, sticky-post, threaded-comments, translation-ready
+*/
+
+/* Modify Query block styles to stretch content and fill container. */
+.wp-block-query.is-style-stretch-content,
+.wp-block-query.is-style-stretch-content .wp-block-post-template,
+.wp-block-query.is-style-stretch-content .wp-block-post-template > li,
+.wp-block-query.is-style-stretch-content .wp-block-post-template > li > *[class*='wp-block'] {
+    height: 100%;
+}
+
+/* Modify Cover bock styles to stretch full width. */
+.wp-block-cover.has-custom-content-position[class*='-center'] .wp-block-cover__inner-container {
+    width: 100%;
+}
+
+/* Align content in a Column block left on mobile. */
+@media (max-width: 781px) {
+    .wp-block-column.is-style-mobile-content-align-left {
+        text-align: left;
+    }
+
+    .wp-block-column.is-style-mobile-content-align-left * {
+        align-items: flex-start !important;
+        justify-content: flex-start !important;
+    }
+}
+
+/* Reverse column order on mobile in the Columns block. */
+@media (max-width: 781px) {
+    .wp-block-columns.is-style-mobile-reverse-order {
+        flex-direction: column-reverse;
+    }
+}
+
+/* Modify Media & Text styling to use spacing presets. */
+.wp-block-media-text {
+    grid-gap: var(--wp--preset--spacing--40);
+}
+
+.wp-block-media-text .wp-block-media-text__content {
+    padding: 0;
+}
+
+/* Add the text overlay block style to Media & Text blocks. */ 
+@media (min-width: 600px) {
+    .wp-block-media-text.is-style-text-overlay .wp-block-media-text__content {
+        background-color: var(--wp--preset--color--tertiary);
+        margin-left: -100px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        padding: var(--wp--preset--spacing--40);
+    }
+
+    .wp-block-media-text.is-style-text-overlay.has-media-on-the-right .wp-block-media-text__content {
+        margin-left: 0;
+        margin-right: -100px;
+        z-index: 1;
+    }  
+}

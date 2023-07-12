@@ -1,0 +1,11 @@
+/* Align content in a Column block left on mobile. */
+@media (max-width: 781px) {
+    .wp-block-column.is-style-mobile-content-align-left {
+        text-align: left;
+    }
+
+    .wp-block-column.is-style-mobile-content-align-left * {
+        align-items: flex-start !important;
+        justify-content: flex-start !important;
+    }
+}
