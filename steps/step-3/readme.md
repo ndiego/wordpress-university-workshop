@@ -1,15 +1,16 @@
 # Step 3: Introduction to theme.json
 
 ## 1. Clean up
-1. Remove extra font files and place EB Garmond in a folder.
-2. Update theme.json to reflect the new file path for EB Garmond font files.
-3. Remove the `:visited` color styles from the global button element.
-4. Remove the `text` color styles from the link element in the Post Content block.
+1. In the `/assets/fonts` folder, remove extra `/dm-sans` and `/ibm-plex-mono` folders.
+2. Place EB Garmond fonts in a `/eb-garmond` folder.
+3. Update the `theme.json` file to reflect the new file path for EB Garmond font files.
+4. Remove the `:visited` color styles from the global button element.
+5. Remove the `text` color styles from the link element in the Post Content block.
 
 ## 2. Styles and Settings
-1. Style Site Title block in Site Editor. Save changes to the theme and see them show up in theme.json.
+1. Style the Site Title block in Site Editor. Save changes to the theme and see them show up in theme.json.
     - Font Family to EB Garmond
-    - Size to Medium
+    - Size to Large
 2. Replace the `"fluid": false` specification on the `x-large` font size with:
 
 ```json
@@ -52,7 +53,7 @@
 	}
 },
 ```
-8. Update the button element border `radius` setting to use the new custom small variable `--wp--custom--border-radius--small`. 
+8. Update the global button element border `radius` setting to use the new custom small variable `var(--wp--custom--border-radius--small)`. 
 9. Add custom button element styles to the Search block.
 ```json
 "core/search": {
@@ -77,6 +78,9 @@
 ### 3. Templates and Template Parts
 1. Remove the Blog (Alternate) template specification under `customTemplates` and then remove the `blog-alternate.html` file from the templates folder in the theme.
 2. Remove the Post Meta template part specification under `templateParts` and then remove the `post-meta.html` file from the parts folder in the theme.
+
+### 4. Style Variations
+1. Delete the `/styles` folder. This theme will only have one style variation.
 
 ## Resources
 - [Global Settings & Styles (theme.json)](https://developer.wordpress.org/block-editor/how-to-guides/themes/theme-json/)

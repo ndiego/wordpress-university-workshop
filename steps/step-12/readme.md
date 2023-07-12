@@ -128,7 +128,7 @@ addFilter(
 3. Confirm it is available when editing other post types.
 
 ### 3. Restrict block settings based on context
-1. Edit the Page Elements page.
+1. Navigate to and edit the "Page Elements" page.
 2. Click on the Button that is located in the Cover block and confirm that all colors are available for both text and background.  
 3. In the `/client-side-filters.js`, use the `blockEditor.useSetting.before` filter to disable all custom colors/gradients and restrict the color palette to `base`, `contrast`, and `primary`, whenever a Button block is placed inside of a Cover block. Use the following code:
 ```js

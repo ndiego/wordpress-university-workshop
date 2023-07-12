@@ -105,6 +105,7 @@ function wpu_enqueue_per_block_styles() {
 }
 add_action( 'init', 'wpu_enqueue_per_block_styles' );
 ```
+6. (Optional) Since the `style.css` file is no longer being used to style the theme, remove the `wpu_setup` and `wp_enqueue_scripts` functions from the `functions.php` file.
 
 ## Resources
 - [Custom CSS for global styles and per block (Dev Note)](https://make.wordpress.org/core/2023/03/06/custom-css-for-global-styles-and-per-block/)

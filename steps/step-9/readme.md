@@ -29,7 +29,7 @@
 
 ### 3. Add an un-synced pattern to the theme.
 
-1. In the theme's `/patterns` folder, create a new `feature-card.php` file.
+1. In the theme's `/patterns` folder, create a new `text-overlay-card.php` file.
 2. At the top of the file, add the following: 
 ```php
 <?php

@@ -19,7 +19,7 @@ Welcome to the "WordPress University" workshop, where you will be guided through
 - [Step 11: Block and template locking](/steps/step-11/readme.md)
 - [Step 12: Client-side filters](/steps/step-12/readme.md)
 
-Each step folder contains a `readme.md` file that provides instructions. The folder also contains a `/theme` folder, which contains the complete theme at end of the step.
+Each step folder contains a `readme.md` file that provides instructions. The folder also contains a `/theme` folder, which contains the complete theme at end of each step.
 
 > **Note** This workshop is designed to be instructor led. The instructions alone are not comprehensive. 
 

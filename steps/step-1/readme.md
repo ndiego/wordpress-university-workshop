@@ -33,14 +33,14 @@ This workshop was designed using [Local WP](https://localwp.com/) and [VS Code](
 
 ### 2. Creating the theme
 1. Navigate to **Appearance → Create Block Theme**.
-4. Choose “Clone the Twenty Twenty-Three”.
+4. Choose “Clone Twenty Twenty-Three”.
 5. Name the cloned theme “WP University”.
 6. Provide a description such as “Empowering Minds, Unleashing Digital Creativity”.
 7. Upload a screenshot ([provided](./assets/logos/WordPress%20University%20-%20Screenshot.png)).
-8. Add additional theme information (optional).
-9. Click “Generate”. This will download a zip file of the theme.
-Navigate to **Appearance → Themes → Add New → Upload Theme**, and upload the zip. 
-10. Active the new WP University theme.
+8. (Optional) Add additional theme information.
+9. Click “Generate”. This will download a ZIP file of the theme.
+10. Navigate to **Appearance → Themes → Add New → Upload Theme**, and upload the zip. 
+11. Active the new WP University theme.
 
 ### 3. Set the Homepage and Posts Page
 1. Create two new pages, “Home” and “University News.” 

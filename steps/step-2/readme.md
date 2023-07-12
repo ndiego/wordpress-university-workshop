@@ -5,14 +5,14 @@
 ### 1. Configure fonts
 1. Navigate to **Appearance → Manage Theme Fonts → Add Google Font**.
 2. Select “EB Garmond”, which will be used for headings.
-3. Choose 400 normal and italic. The other font weights will not be used, but feel free to add more if you wish.
+3. Choose 400 `normal` and 400 `italic`. The other font weights will not be used, but feel free to add more if you wish.
 4. Click “Add Google fonts to your theme.”
 5. Navigate back to **Appearance → Manage Theme Fonts** and remove DM Sans, IBM Plex Mono, and Source Serif Pro.
 6. Access the Site Editor by navigating to **Appearance → Editor**.
-7. Click on the Styles menu item, then click on the pencil icon, or simply click on the canvas.
-8. In the right-hand Style sidebar, select Typography.
+7. Click on the Styles menu item, then click on the pencil icon in the top right of the sidebar.
+8. In the right-hand Styles sidebar, select Typography.
 9. Select Text and change the Font Family to Inter.
-10. Select Headings and change the Font Family to EB Garmond.
+10. Go back, then select Headings and change the Font Family to EB Garmond.
 
 ### 2. Configure color palette
 1. In the Styles sidebar, choose Colors.
