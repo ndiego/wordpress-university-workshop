@@ -1,4 +1,4 @@
-=== WP University ===
+=== WP University - Step 2 ===
 Contributors: 
 Requires at least: 6.0
 Tested up to: 6.2.2
