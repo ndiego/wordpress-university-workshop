@@ -2,7 +2,7 @@
 
 ## 1. Clean up
 1. In the `/assets/fonts` folder, remove extra `/dm-sans` and `/ibm-plex-mono` folders.
-2. Place EB Garmond fonts in a `/eb-garmond` folder.
+2. Place EB Garmond fonts in a `/eb-garamond` folder.
 3. Update the `theme.json` file to reflect the new file path for EB Garmond font files.
 4. Remove the `:visited` color styles from the global button element.
 5. Remove the `text` color styles from the link element in the Post Content block.

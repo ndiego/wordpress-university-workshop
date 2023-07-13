@@ -22,7 +22,7 @@
     - Contrast: `#1E1E1E`
     - Primary: `#3858E9`
     - Secondary: `#7B90FF`
-    - Tertiary: `#7B90FF`
+    - Tertiary: `#ECEFFD`
 4. Go back to the main Colors panel.
 5. Change the Link default color to Primary.
 6. Change the Button text to Base and the background color to Primary.
